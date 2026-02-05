@@ -1911,12 +1911,16 @@ body {
     }
     
     .footer-content {
-        grid-template-columns: 1fr;
-        gap: 1.2rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }
     
     .footer {
-        padding: 2rem 1rem 1rem;
+        padding: 2.5rem 1.5rem 1.5rem;
+    }
+    
+    .footer-brand {
+        grid-column: 1 / -1;
     }
     
     .tech-circle {
